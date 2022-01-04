@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A00D2D1A2784269600973783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2D192784269600973783 /* AppDelegate.swift */; };
 		A00D2D1C2784269600973783 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2D1B2784269600973783 /* SceneDelegate.swift */; };
-		A00D2D1E2784269600973783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2D1D2784269600973783 /* ViewController.swift */; };
 		A00D2D212784269600973783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00D2D1F2784269600973783 /* Main.storyboard */; };
 		A00D2D232784269700973783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00D2D222784269700973783 /* Assets.xcassets */; };
 		A00D2D262784269700973783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00D2D242784269700973783 /* LaunchScreen.storyboard */; };
+		A00D2D2E2784298000973783 /* QuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2D2D2784298000973783 /* QuoteTableViewController.swift */; };
+		A00D2D30278438D200973783 /* QuoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2D2F278438D200973783 /* QuoteDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A00D2D162784269600973783 /* QuickQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00D2D192784269600973783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A00D2D1B2784269600973783 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A00D2D1D2784269600973783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A00D2D202784269600973783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A00D2D222784269700973783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A00D2D252784269700973783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A00D2D272784269700973783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00D2D2D2784298000973783 /* QuoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewController.swift; sourceTree = "<group>"; };
+		A00D2D2F278438D200973783 /* QuoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				A00D2D192784269600973783 /* AppDelegate.swift */,
 				A00D2D1B2784269600973783 /* SceneDelegate.swift */,
-				A00D2D1D2784269600973783 /* ViewController.swift */,
 				A00D2D1F2784269600973783 /* Main.storyboard */,
+				A00D2D2D2784298000973783 /* QuoteTableViewController.swift */,
+				A00D2D2F278438D200973783 /* QuoteDetailViewController.swift */,
 				A00D2D222784269700973783 /* Assets.xcassets */,
 				A00D2D242784269700973783 /* LaunchScreen.storyboard */,
 				A00D2D272784269700973783 /* Info.plist */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00D2D1E2784269600973783 /* ViewController.swift in Sources */,
 				A00D2D1A2784269600973783 /* AppDelegate.swift in Sources */,
+				A00D2D2E2784298000973783 /* QuoteTableViewController.swift in Sources */,
+				A00D2D30278438D200973783 /* QuoteDetailViewController.swift in Sources */,
 				A00D2D1C2784269600973783 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
